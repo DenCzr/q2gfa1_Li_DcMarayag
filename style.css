@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=PT+Sans+Narrow&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Vina+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#vidbg{ 
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    z-index:-1; 
+}
+
+.pagelink{
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    border: 0.1vw solid black;
+    background-color: antiquewhite;
+    border-radius: 0.2vw;
+    padding-top: 1vw;
+    padding-bottom:1vw;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 1vw;
+}
+.pagetitle{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+    font-size: 1.2vw;
+}
+
+.icon{
+    background: url(../media/sprite.png);
+    width: 66px;
+    height: 66px;
+    display: inline-block;
+}
+
+
+#sc{
+    background-position: -587px -72px;
+}
+
+#fb{
+    background-position: -439px -146px;
+}
+
+#yt{
+    background-position: -439px -221px;
+}
+
+#tw{
+    background-position: -66px -72px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer{
+    border: 0.1vw solid black;
+    background-color: antiquewhite;
+    bottom: 0%;
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    padding: 0.3vw;
+    border-radius: 0.2vw;
+}
+
+article h1{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    padding-top: 2vw;
+    padding-left: 2vw;
+    color: antiquewhite;
+    font-size: 3vw;
+}
+
+article p{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: rgb(255, 255, 255);
+
+}
+
+article p1{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: rgb(255, 255, 255);
+}
+
+article{
+    background-color: rgba(17,17,17,0.69);
+    padding-bottom: 2vw;
+}
